@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-import requests
 
+import requests
 from odoo import models, fields, api
 
 

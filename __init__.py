@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from odoo.api import Environment, SUPERUSER_ID
 from . import models
 from . import wizards

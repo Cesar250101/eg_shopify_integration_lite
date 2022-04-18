@@ -1,0 +1,12 @@
+<odoo>
+    <record model="ir.ui.view" id="account_invoice_form_view_for_shopify_integration_lite">
+        <field name="name">account.invoice.form.for.shopify.integration.lite</field>
+        <field name="model">account.invoice</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='currency_id']" position="after">
+                <field name="eg_account_journal_id"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
